@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL
+    username: root
+    password: admin
+
+  web:
+    resources:
+      static-locations: classpath:/templates/, classpath:/static/
+
+server:
+  port: 8081
+  address: localhost
+
+
+
