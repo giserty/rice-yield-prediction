@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css" type="text/css">
+
+
+  <!-- earthSDK -->
+  <!-- <script src="./js/earthsdk/XbsjEarth/XbsjEarth.js"></script> -->
+
+  <!-- supermap -->
+  <link rel="stylesheet" href="static/Cesium/Widgets/widgets.css">
+  <link rel="stylesheet" href="static/Cesium/pretty.css">
+
+
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <style type="text/css">
+    html,
+    body {
+      padding: 0px;
+      margin: 0px;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <!-- <script src = 'https://webapi.amap.com/maps?v=2.0&key=8253fd4b3a048dd711f4494a234c1c12'></script> -->
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <script type="text/javascript" src="static/Cesium/Cesium.js"></script>
+  <script type="text/javascript" src="static/Cesium/config.js"></script>
+  <!-- <script type="text/javascript" src="static/Cesium/Workers/zlib.min.js"></script> -->
+</body>
+
+</html>
