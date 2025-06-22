@@ -6,7 +6,7 @@
 
 打开IDEA，使用Spring Initializr服务创建Spring Boot应用程序：
 
-![image-20250622221224844](https:\\github.com\giserty\rice-yield-prediction\tree\master\images\image-20250622221224844.png)
+![image-20250622221224844](https://github.com/giserty/rice-yield-prediction/blob/master/images/image-20250622221224844.png)
 
 ![image-20250622221600479](https:\\github.com\giserty\rice-yield-prediction\tree\master\images\image-20250622221600479.png)
 
