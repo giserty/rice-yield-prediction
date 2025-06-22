@@ -21,7 +21,7 @@
 
 Vue项目管理器主界面如下：
 
-![image-20250622221519459](https://raw.githubusercontent.com/giserty/rice-yield-prediction/master/images/image-20250622221519459)
+![image-20250622221519459](https://raw.githubusercontent.com/giserty/rice-yield-prediction/master/images/image-20250622221519459.png)
 
 在指定位置新建一个Vue项目：
 
